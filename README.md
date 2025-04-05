@@ -6,17 +6,17 @@ This project is a Streamlit web application designed to analyze Reddit post data
 
 The dashboard is divided into several key sections:
 
-1.  ** Virality Predictor:**
+1.  **Virality Predictor:**
     *   Input a potential Reddit post title.
     *   Predicts the likelihood of the post going viral based on features like title text (TF-IDF), sentiment, average comment count, and average subreddit subscribers.
     *   Displays the prediction using an intuitive gauge visualization.
 
-2.  ** Similar Posts:**
+2.  **Similar Posts:**
     *   Input a Reddit post title.
     *   Finds and displays the top 5 most textually similar posts from the dataset using TF-IDF and Cosine Similarity.
     *   Shows the title, similarity score, actual score, subreddit, and ID of the similar posts.
 
-3.  ** Topic Trend Predictor:**
+3.  **Topic Trend Predictor:**
     *   **Title Analysis:**
         *   Input a Reddit post title.
         *   Identifies the dominant topic of the title using a pre-trained Latent Dirichlet Allocation (LDA) model.
@@ -25,7 +25,7 @@ The dashboard is divided into several key sections:
     *   **Overall Trends:**
         *   Displays weekly trend plots (actual post counts + forecast) for each major topic identified by the LDA model, allowing users to visually track topic popularity over time.
 
-4.  ** Key Stats & EDA:**
+4.  **Key Stats & EDA:**
     *   **Top Metrics:** Shows overall dataset statistics like Total Posts Analyzed, Average Score, and Average Comments.
     *   **Sentiment Analysis:**
         *   Displays the top 5 most positive and top 5 most negative post titles based on NLTK VADER sentiment analysis.
@@ -60,4 +60,7 @@ The dashboard is divided into several key sections:
 *   **Visualization:** Matplotlib, Seaborn
 *   **Utilities:** warnings, calendar, datetime, timedelta
 
+## 🚀 Potential Future Improvements
 
+*   **Controversy Predictor:** Re-integrate or refine the controversy prediction feature (perhaps focusing on probability scores or improving the label definition/features).
+*   **AI Title Optimizer:** Implement suggestions for improving titles based on analysis (potentially using rule-based logic or external APIs if constraints change).
