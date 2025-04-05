@@ -1,22 +1,22 @@
-# Reddit Engagement Analytics Dashboard 📊
+# Reddit Engagement Analytics Dashboard 
 
 This project is a Streamlit web application designed to analyze Reddit post data. It provides insights into post engagement, predicts virality, explores topics using LDA, identifies similar posts, and presents key statistics through an interactive dashboard.
 
-## ✨ Features
+##  Features
 
 The dashboard is divided into several key sections:
 
-1.  **🚀 Virality Predictor:**
+1.  ** Virality Predictor:**
     *   Input a potential Reddit post title.
     *   Predicts the likelihood of the post going viral based on features like title text (TF-IDF), sentiment, average comment count, and average subreddit subscribers.
     *   Displays the prediction using an intuitive gauge visualization.
 
-2.  **🧬 Similar Posts:**
+2.  ** Similar Posts:**
     *   Input a Reddit post title.
     *   Finds and displays the top 5 most textually similar posts from the dataset using TF-IDF and Cosine Similarity.
     *   Shows the title, similarity score, actual score, subreddit, and ID of the similar posts.
 
-3.  **📈 Topic Trend Predictor:**
+3.  ** Topic Trend Predictor:**
     *   **Title Analysis:**
         *   Input a Reddit post title.
         *   Identifies the dominant topic of the title using a pre-trained Latent Dirichlet Allocation (LDA) model.
@@ -25,7 +25,7 @@ The dashboard is divided into several key sections:
     *   **Overall Trends:**
         *   Displays weekly trend plots (actual post counts + forecast) for each major topic identified by the LDA model, allowing users to visually track topic popularity over time.
 
-4.  **📌 Key Stats & EDA:**
+4.  ** Key Stats & EDA:**
     *   **Top Metrics:** Shows overall dataset statistics like Total Posts Analyzed, Average Score, and Average Comments.
     *   **Sentiment Analysis:**
         *   Displays the top 5 most positive and top 5 most negative post titles based on NLTK VADER sentiment analysis.
@@ -38,7 +38,7 @@ The dashboard is divided into several key sections:
         *   Distribution of posts per Day of the Month.
     *   **LDA Topic Word Clouds:** Displays word clouds for each topic identified by the LDA model, showing the most important keywords associated with each topic.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 *   **Language:** Python 3.x
 *   **Web Framework:** Streamlit
