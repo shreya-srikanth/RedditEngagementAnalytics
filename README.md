@@ -1,4 +1,4 @@
-# Reddit Engagement Analytics Dashboard 
+# Reddit Engagement Analytics Dashboard - Version 1
 
 This project is a Streamlit web application designed to analyze Reddit post data. It provides insights into post engagement, predicts virality, explores topics using LDA, identifies similar posts, and presents key statistics through an interactive dashboard.
 
