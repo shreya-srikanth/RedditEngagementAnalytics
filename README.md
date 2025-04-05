@@ -60,7 +60,7 @@ The dashboard is divided into several key sections:
 *   **Visualization:** Matplotlib, Seaborn
 *   **Utilities:** warnings, calendar, datetime, timedelta
 
-## 🚀 Potential Future Improvements
+## Potential Future Improvements
 
-*   **Controversy Predictor:** Re-integrate or refine the controversy prediction feature (perhaps focusing on probability scores or improving the label definition/features).
-*   **AI Title Optimizer:** Implement suggestions for improving titles based on analysis (potentially using rule-based logic or external APIs if constraints change).
+*   **Controversy Predictor:** Integrate a controversy prediction feature (based on a controversy score metric) using a `RandomForestClassifier` model.
+*   **AI Title Optimizer:** Implement suggestions for improving titles based on analysis (potentially using rule-based logic).
