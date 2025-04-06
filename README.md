@@ -17,7 +17,7 @@ The dashboard is divided into several key sections accessible via the sidebar:
     *   **Details:** Shows the title, similarity score, actual score, subreddit, and ID of the similar posts.
 
 3.  **Topic Trend Predictor:**
-    *   **Title Analysis:**
+    *   **Title Topic Analysis:**
         *   **Input:** Enter a Reddit post title.
         *   **Topic Identification:** Identifies the dominant topic using a pre-trained Latent Dirichlet Allocation (LDA) model.
         *   **Trend Status:** Predicts if the identified topic is currently trending (Emerging or Stable/Declining) based on recent post volume using Exponential Smoothing.
